@@ -1,6 +1,11 @@
 $white: #fff;
 $black: #212121;
 $main: #fbbd08;
+$body-first-color : #212121;
+$body-second-color : #191919;
+$card-color: #ffce00;
+$text-first-color-card: rgba(0,0,0,0.1);
+$text-second-color-card: #ffce00;
 
 @mixin text-styles {
 	font-weight: 700;
