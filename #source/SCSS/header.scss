@@ -82,7 +82,7 @@
 
 	.burger {
 		display: none;
-    position: fixed;
+    position: relative;
     z-index: 50;
     align-items: center;
     justify-content: flex-end;
@@ -123,8 +123,12 @@
 		}
 
 		&.active::after{
-		    bottom: 50%;
-		    transform: rotate(45deg) translate(0, 50%);
+		  bottom: 50%;
+		  transform: rotate(45deg) translate(0, 50%);
 		}
+	}
+
+	.no-scroll {
+    overflow: hidden;
 	}
 }
