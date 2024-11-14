@@ -4,10 +4,116 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Gold2Play магазин - Купить голду, перчатки</title>
-		<link rel="stylesheet" href="./css/style.css">
+		<title>Gold2Play магазин - Купить голду, ножи, перчатки</title>
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon/favicon-16x16.png">
+		<link rel="manifest" href="./img/icons/favicon/site.webmanifest">
 	</head>
 	<body>
-		
+		<!-- @import "header.html" -->
+
+		<main class="main">
+			<section class="welcome">
+				<div class="container">
+					<div class="welcome-text">
+						<h1 class="welcome-text__title">Gold2<em>Play</em></h1>
+						<p class="welcome-text__desc">Преврати игру в искусство!</p>
+						<a href="#shop1" class="btn">Продолжить</a>
+					</div>
+				</div>
+				<div class="overlay"></div>
+			</section>
+
+			<section class="shop" id="shop1">
+				<div class="container">
+					<h2 class="title-1">Популярные товары</h2>
+
+					<div class="card">
+						<div class="card-list">
+							<img src="./img/products/golda/6k.png" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">6000 голды</h3>
+							<span class="card__price">879 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+						<div class="card-list">
+							<img src="./img/products/golda/9k.png" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">9000 голды</h3>
+							<span class="card__old-price">1119 ₽</span>
+							<span class="card__price">999 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+						<div class="card-list">
+							<img src="./img/products/gloves/1.webp" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">Gloves «Acid»</h3>
+							<span class="card__price">299 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="low-prices">
+				<div class="container">
+					<h3 class="title-2">МОМЕНТАЛЬНОЕ ЗАЧИСЛЕНИЕ!</h3>
+					<h2 class="title-1">НОЖИ ПО САМОЙ НИЗКОЙ ЦЕНЕ</h2>
+
+					<div class="card">
+						<div class="card-list">
+							<img src="./img/products/knives/m9/3.png" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">M9 Bayonet «Dark Shiver»</h3>
+							<span class="card__price">639 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+						<div class="card-list">
+							<img src="./img/products/knives/karambit/6.png" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">Karambit «Nebula»</h3>
+							<span class="card__price">639 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+						<div class="card-list">
+							<img src="./img/products/knives/butterfly/1.png" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">Butterfly «Black Widow»</h3>
+							<span class="card__price">424 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="low-prices">
+				<div class="container">
+					<h3 class="title-2">МОМЕНТАЛЬНОЕ ЗАЧИСЛЕНИЕ!</h3>
+					<h2 class="title-1">ПЕРЧАТКИ ПО САМОЙ НИЗКОЙ ЦЕНЕ</h2>
+
+					<div class="card">
+						<div class="card-list">
+							<img src="./img/products/gloves/5.webp" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">Gloves «Camo»</h3>
+							<span class="card__price">250 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+						<div class="card-list">
+							<img src="./img/products/gloves/1.webp" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">Gloves «Acid»</h3>
+							<span class="card__price">299 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+						<div class="card-list">
+							<img src="./img/products/gloves/4.webp" class="card-list__img" oncontextmenu="return false;">
+							<h3 class="card__title">Gloves «Burning Fists»</h3>
+							<span class="card__price">299 ₽</span>
+							<button type="button" class="add-cart">В корзину</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- @import "footer.html" -->
+
+		<script src="./js/burger.js"></script>
+		<script src="./js/smooth-scroll.js"></script>
 	</body>
 </html>
